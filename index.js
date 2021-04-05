@@ -39,7 +39,7 @@ s4d.client.on('raw', async (packet) => {
 var member_xp, member_level;
 
 
-s4d.client.login('ODI2MzQxMTA4NTgxNTMxNjg4.YGLEIA.DRT6M9gkOQMvPqs-CduPyz1QAUU').catch((e) => {
+s4d.client.login('BOT_TOKEN').catch((e) => {
     s4d.tokenInvalid = true;
     s4d.tokenError = e;
 });
